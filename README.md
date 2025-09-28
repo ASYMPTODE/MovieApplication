@@ -51,11 +51,7 @@ Client (client/.env)
   - In client:
     - npm install
 
-3) Seed movies (25 total)
-- In server:
-  - npm run seed:movies
-
-4) Start
+3) Start
 - In server (http://localhost:4000):
   - npm run dev
 - In client (http://localhost:5173):
