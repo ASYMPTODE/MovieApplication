@@ -97,10 +97,3 @@ Analytics
 - UI uses a light theme with blue accents (MUI Theme).
 - Search uses a simple case-insensitive match, so it works without special DB indexes.
 
-## Troubleshooting (Vite on OneDrive)
-If you get EPERM errors when starting the client:
-- Close dev server.
-- Try removing Vite’s cache folder:
-  - PowerShell: Remove-Item -Recurse -Force .\client\node_modules\.vite
-- Start again: cd client && npm run dev
-- If it keeps happening, try moving the project outside OneDrive (like C:\dev).
