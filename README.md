@@ -93,7 +93,7 @@ Analytics
 - Set VITE_OMDB_API_KEY in client/.env and restart the client dev server.
 
 ## Notes
-- KNN for CF is not added yet (will add later if needed).
+- KNN for CF is not added yet (will add later).
 - UI uses a light theme with blue accents (MUI Theme).
 - Search uses a simple case-insensitive match, so it works without special DB indexes.
 
